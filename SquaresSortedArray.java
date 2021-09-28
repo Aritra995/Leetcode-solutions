@@ -1,7 +1,5 @@
 import java.util.Arrays;
 
-import javax.swing.SortOrder;
-
 public class SquaresSortedArray {
     public int[] sortedSquares(int[] nums) {
         for(int i =0;i < nums.length;i++){
