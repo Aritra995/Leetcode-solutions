@@ -8,4 +8,7 @@ public class ConsoleLogger {
     public static void writeInfo(Integer x) {
         System.out.println(x);
     }
+    public static void writeInfo(char x) {
+        System.out.println(x);
+    }
 }
