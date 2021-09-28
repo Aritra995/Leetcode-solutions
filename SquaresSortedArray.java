@@ -5,6 +5,7 @@ public class SquaresSortedArray {
         for(int i =0;i < nums.length;i++){
             nums[i] *= nums[i];
         }
+        //sort with arrays sort
         Arrays.sort(nums);
         return nums;
     }
